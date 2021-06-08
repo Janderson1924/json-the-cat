@@ -13,7 +13,6 @@ const fetchBreedDescription = function(breedName, callback) {
         } else {
           callback('breed not found', null);
         }
-        // console.log(newData[0].description);
       }
     });
   }
